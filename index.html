@@ -1,0 +1,80 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel Jacob | Personal Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="brand-title">Emmanuel Jacob</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#past">Past</a></li>
+        <li><a href="#present">Present</a></li>
+        <li><a href="#future">Future</a></li>
+        <li><a href="#quote">Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about">
+    <h2>👤 About Me</h2>
+    <p>I'm a passionate and evolving individual with a strong interest in web development, digital creativity, and impact-driven technology. I believe in growth, collaboration, and using skills to solve real-world problems.</p>
+  </section>
+
+  <section id="past">
+    <h2>⏳ PAST: What I Have Done</h2>
+    <ul>
+      <li>🎓 Completed secondary education with a focus on science and tech.</li>
+      <li>🛠️ Built early HTML/CSS projects and flyers for local businesses.</li>
+      <li>📚 Completed beginner courses in web development.</li>
+    </ul>
+  </section>
+
+  <section id="present">
+    <h2>🔄 PRESENT: What I Am Doing</h2>
+    <ul>
+      <li>💻 Learning JavaScript and building responsive websites.</li>
+      <li>🧠 Leading the team project: <strong>Farm Savvy</strong>.</li>
+      <li>📢 Developing personal brand, templates, and presence online.</li>
+    </ul>
+  </section>
+
+  <section id="future">
+    <h2>🚀 FUTURE: What I Plan to Do</h2>
+    <ul>
+      <li>🧑‍💻 Master React, backend tech (Node.js, Python), and full-stack dev.</li>
+      <li>🧳 Freelance, intern, and build industry-level projects.</li>
+      <li>🌍 Launch tech education for African youth and open-source tools.</li>
+    </ul>
+  </section>
+
+  <section id="quote">
+    <h2>💬 Personal Quote</h2>
+    <blockquote>
+      "I'm not just building websites — I'm building a future where creativity, code, and purpose meet to make lives better."
+    </blockquote>
+  </section>
+
+  <script>
+    const toggleButton = document.querySelector('.toggle-button');
+    const navbarLinks = document.querySelector('.navbar-links');
+
+    toggleButton.addEventListener('click', () => {
+      navbarLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
+
